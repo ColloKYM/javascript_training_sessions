@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 30px;
+}
+
+h1 {
+    color: rgb(26, 48, 5);
+    border-bottom: 2px solid black;
+}
+p{
+    color: black;
+    margin-top: 20px;
+}

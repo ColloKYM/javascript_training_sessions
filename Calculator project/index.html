@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <h1>Simple calculator</h1>
+        <p>Enter two numbers and select an operation</p>
+    </div>
+    <div class="form-group">
+        <label for="number1">First Number</label>
+        <input type="number" id="number1" step="any" placeholder="Enter first number">
+    </div>
+    <div class="form-group">
+        <label for="number2">Second Number</label>
+        <input type="number" id="number2" step="any" placeholder="Enter second number">
+    </div>
+    <div class="form-group">
+        <label for="operator">Select operation</label>
+        <select name="operator" id="operator">
+            <option value="add">Addition (+)</option>
+            <option value="subtract">Subtraction (-)</option>
+            <option value="divide">Division (/)</option>
+            <option value="multiply">Multiplication (*)</option>
+        </select>
+    </div>
+    <button onclick="calculate()">Calculate</button>
+    <div id="result" aria-live="polite">Your result will appear here</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
